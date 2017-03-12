@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+/*
+    Create form here
+*/
+.menu
+{
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: #212F66;
+    top: 0;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 25px;
+    color: #FAFAFA;
+}
+
+div .image img
+{
+    width: 200px;
+    height: 170px;
+}
+
+
+/*
+menutop
+*/
+
+.menuTop
+{
+    width: 1190px;
+    height: 112px;
+    background: #212F66;
+}
+
+.menuTop > p
+{
+    color: white;
+    margin-left: 40px;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.menuTop > .userNameLogin  
+{
+    color: white;
+    display: inline-block;
+}
+
+.menuTop > .logOut
+{
+    display: inline-block;
+    margin-left: 60vw;
+    color: white;
+}
+/*
+Form 
+*/
+
+input
+{
+    border: 0;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+label
+{
+    color: #FAFAFA;
+}
+
+.form{
+    width: 200px;
+    margin: auto;
+}
+
+input[type=submit].valid
+{
+    background : #36dcf6;
+    width: 100%;
+}
+
+/*
+ERROR AND SUCCESS MP
+*/
+
+.messages
+{
+    margin-top: 50px;
+}
+
+.messages.errors
+{
+    background: #c21818;
+    color: #fafafa;
+    text-align: center;
+}
+
+.messages.success
+{
+    background: #11ab19;
+    color: #fafafa;
+    text-align: center;
+}
+
+.error label
+{
+    color: red;
+}
+
+/*
+    List where product can be change
+*/
+.containerList
+{
+    width: 1190px;
+    position: absolute;
+    left:250px;
+    top: 0;
+    height: 800px;
+    background-color: #FAFAFA;
+}
+
+.fieldsetForm
+{
+    border: 0px;
+    margin-top: 50px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 900px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+table, th, td 
+{
+    border: 1px solid #9D9FA2;
+    padding: 10px;
+}
+
+td.nameCase
+{
+width: 200px;
+}
+
+
+thead
+{
+    background-color: #E1DFE0;
+}
+.productList tr:nth-child(even)
+{
+    background-color: #dff6ff;
+} 
+
+/*
+Configuration list
+*/
+
+.buttonDelete
+{
+    width : 60px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ff2e2e;
+    color: #fafafa;
+}
+
+.buttonDelete:hover
+{
+cursor: pointer;
+}
+
+td > input 
+{
+    background: transparent;
+    width: 100%;
+}
+
+td > .nameCase > input
+{
+    width: 200px;
+}
